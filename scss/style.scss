@@ -1,0 +1,83 @@
+@font-face{
+  src: url(../fonts/AvenirNext/AvenirNextCyr-Regular.ttf);
+  font-family: AvenirNextCyr-Regular sans-serif;
+}
+@font-face{
+  src: url(../fonts/AvenirNext/AvenirNextCyr-Bold.woff);
+  font-family: AvenirNextCyr-bold sans-serif;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  color: #fff;
+  background: #11364e;
+  margin: 0 auto;
+}
+.contact-us {
+  max-width: 370px;
+  margin: 0 auto;
+  &__wrapper {
+    margin-top: 140px;
+  }
+  &__title {
+    text-align: center;
+    font-size: 38px;
+    font-family: AvenirNextCyr-Regular sans-serif;
+    margin-bottom: 30px;
+  }
+.contact-us__item__title {
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-family: AvenirNextCyr-bold sans-serif;
+}
+.form-item {
+    width: 100%;
+    padding: 5px 0px;
+    border: 0;
+    outline: none;
+    font-family: AvenirNextCyr-bold sans-serif;
+    color: #fff;
+    background: none;
+    transition: all .3s;
+    margin-bottom: 40px;
+    font-size: 16px;
+    border-bottom: 1px solid #ffffff60;
+    opacity: 0.2;
+    resize: none;
+    &:focus{
+        opacity: 0.5;
+    }
+  }
+  .btn{
+  color: #fff;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-family: AvenirNextCyr-bold sans-serif;
+  font-size: 17px;
+  margin-bottom: 40px;
+  transition: all .5s;
+  cursor: pointer;
+  padding: 18px 0px;
+    background: #FF7F57;
+    &:hover{
+      background: #f35525;
+    }
+    }
+  }
+
+  .footer {
+    background: #13253A;
+    width: 100%;
+    margin: 100px  auto 0;
+		&__text {
+      font-size: 12px;
+     padding: 15px 0px;
+     opacity: 0.8;
+      text-align: center;
+		}
+}
